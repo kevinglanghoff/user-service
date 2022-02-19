@@ -53,6 +53,7 @@ public class Role {
         this.role_cd = role_cd;
     }
 
+    // a role has permissions
     @OneToMany
     @JoinTable(
             name="role_permission",
